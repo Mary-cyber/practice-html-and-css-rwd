@@ -7,7 +7,6 @@
 .a, .b, .c {
     border: 3px solid transparent;
     min-height: 50px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,3 +23,20 @@
 .c {
     border-color: #baffc9;
 }
+
+body {
+    display: grid;
+    grid-template-areas:
+    "a-top"
+    "a-bottom"
+    "a-comments";
+   }
+header {
+    grid-area: a-top;
+}
+section {
+    grid-area: a-comments;
+} 
+main {
+    grid-area: a-bottom;
+} 

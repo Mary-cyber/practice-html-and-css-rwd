@@ -1,0 +1,17 @@
+body {
+    display: grid;
+    grid-template-areas:
+    "a-photo"
+    "a-text"
+    "a-video";
+   }
+header {
+    grid-area: a-photo;
+} 
+main {
+    grid-area: a-text;
+} 
+
+iframe {
+    grid-area: a-video;
+}
