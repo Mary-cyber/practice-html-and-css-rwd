@@ -2,7 +2,7 @@ body {
     display: grid;
     grid-template-areas:
     "a-top a-top"
-    "a-bottom a-comments";
+    "a-comments a-bottom ";
    }
 
    

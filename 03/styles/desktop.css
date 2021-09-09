@@ -15,3 +15,6 @@ main {
 iframe {
     grid-area: a-video;
 }
+section {
+    grid-area: a-text;
+ }

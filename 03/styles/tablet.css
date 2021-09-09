@@ -5,13 +5,15 @@ body {
     "a-video a-text";
    }
 
-   header {
+header {
     grid-area: a-photo;
 } 
 main {
     grid-area: a-text;
 } 
-
 iframe {
     grid-area: a-video;
 }
+section {
+    grid-area: a-text;
+ }

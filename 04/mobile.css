@@ -1,5 +1,12 @@
+header ul {
+    display: none;
+   }
+
+header input:checked + ul {
+    display: block;
+   }
+   
 .nav{
-    flex-direction: column;
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;

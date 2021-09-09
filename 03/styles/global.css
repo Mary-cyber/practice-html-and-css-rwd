@@ -10,10 +10,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .p {
-    border-color: #ffffba
+    border-color: #ffffba;
+    align-items: center;
 }
 
 .t {
@@ -22,4 +24,11 @@
 
 .v {
     border-color: #baffc9;
+}
+.picture{
+ background-position: center;
+ background-size: cover;
+ height: 0;
+ padding-bottom: 50%;
+
 }
